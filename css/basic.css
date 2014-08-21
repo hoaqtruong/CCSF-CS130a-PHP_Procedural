@@ -1,0 +1,189 @@
+/* -----------BASIC STYLES ---------------*/
+body {
+padding: 0;
+margin: 0;
+}
+#wrapper{
+font-family: Verdana, Arial, sans-serif;
+font-size: 0.9em;
+border: groove 2px;
+color: #331A00;
+padding: 5px;
+}
+#header{
+background-color: #331A00;
+color: #FF9900;
+font-size: 1.3em;
+font-style: bold;
+text-align: center;
+padding: 5px;
+margin: 0;	
+}
+h2{
+	font-size: 1.1em;
+}
+h3{
+	font-size: 1em;
+}
+img {
+	border-style: none;
+}
+#caption li{
+	list-style: none;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	color: 	#664D33;
+}
+#content{
+	padding-left: 10px;
+}
+#content_left {
+	width: 400px;
+	float: left;
+	padding: 20px;
+}
+#content_right {
+	float: left;
+	padding-top: 40px;
+}
+#footer{
+	clear: left;
+	background-color: #331A00;
+	color: #FF9900;
+	font-size: 0.8em;
+	font-style: italic;
+	text-align: left;
+	padding: 5px;
+	margin: 0;
+}
+.show_box{
+	background: #E0E0E0;
+	border: solid 1px #FF9900;
+	padding: 5px 10px;
+	margin-right: 10px;
+}
+pre {
+	 white-space: pre-wrap;       /* css-3 */
+	 white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	 white-space: -pre-wrap;      /* Opera 4-6 */
+	 white-space: -o-pre-wrap;    /* Opera 7 */
+	 word-wrap: break-word;       /* Internet Explorer 5.5+ */		
+/*	overflow: hidden; --> this rule prevent overflowing but chop off the text*/ 
+}
+
+/* -----------NAVIGATION STYLES ---------------*/
+#navlist
+{
+padding: 3px 0;
+margin-left: 0;
+border-bottom: 1px solid #FF9900;
+font: bold 12px Verdana, sans-serif;
+}
+
+#navlist li
+{
+list-style: none;
+margin: 0;
+display: inline;
+}
+
+#navlist li a
+{
+padding: 3px 0.5em;
+margin-left: 3px;
+border: 1px solid #FF9900;
+border-bottom: none;
+background: #D1A375;
+text-decoration: none;
+}
+
+#navlist li a:link { color: #8A5C2E; }
+#navlist li a:visited { color: #B87A3D; }
+
+#navlist li a:hover{
+color: #331A00;
+background: #B87A3D;
+border-color: #FF9900;
+}
+
+#navlist li a:active{
+color: #331A00;
+background: #B87A3D;
+border-color: #FF9900;
+}
+
+#navlist li a#current
+{
+background: white;
+border-bottom: 1px solid white;
+}
+/* --------------- lab2 form ---------------*/
+.input-label{
+	float: left;
+	clear: left;
+	width: 90px;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 0.9em;
+	
+}
+.product{
+	width: 350px;
+	height: 670px;
+   padding: 1em 3em;
+ /*   border: solid 1px #ccc;*/
+   -moz-border-radius:3px;-webkit-border-radius:3px;z-index:1000; 
+	background: #E0E0E0;
+	border: solid 1px #FF9900;
+
+}
+
+.product ol li{
+		color: #646464;
+}
+#product_selling{
+	clear: left;
+	width: 850px;
+   -moz-border-radius-topright:30px; -moz-border-radius-topleft:30px; -webkit-border-top-right-radius:30px; -webkit-border-top-left-radius:30px; z-index:2000; 
+	background: white;
+	border: solid 2px #FF9900;
+	border-bottom: none;
+	margin-left: 30px;
+	
+}
+#greetings{
+	padding: 5px 20px;
+	border-bottom: dashed 2px #FF9900;
+	font: 0.9em Tahoma, Arial, San-serif;
+	font-weight: bold;
+	color: #646464;
+}
+#shipping_info{
+	float: left;
+	padding: 10px 20px;
+}
+#price{
+	float: right;
+	padding-right: 90px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#price .discount_note{
+	float: right;
+	padding-right: 90px;
+	font-size: 0.6em;
+	font-weight: normal;
+	font-style: italic;
+}
+#comments{
+	clear: left;
+	background-color: #E0E0E0;
+	padding: 3px 20px;
+	font: 0.8em Tahoma, Arial, San-serif;
+}
+/* --------------- lab3 form validation---------------*/
+.error_message {
+	background-color: #f60;
+}
+.rule_message {
+	color: red;
+	font-size: 0.6em;
+}

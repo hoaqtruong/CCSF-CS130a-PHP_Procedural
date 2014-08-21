@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* Basic CSS Document for myJournal site*/
+
+/* color scheme
+#D97904 (RGB: 217 121 4) Orange
+#D97977 ()
+#CD6D28 (RGB: 206 109 40) Dark Orange
+#938A51 (RGB 124 138 81) Ghi
+#938A28
+#807F3f (RGB 128 127 63) Ghi tuoi
+#BDAD6F (RGB 189 173 111) Mau da
+#d0ecf4 Xanh bien nhat
+#d4eded Xanh nhat
+banner_png8.png W: 974px H: 150px
+banner_png24.png W: 974px H: 150px
+botton: W: 95px	H: 45px*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma, helvetica, arial, san-serif ;
+	color: #5f6252;
+}
+h1 {
+	color: #cd6d28;
+	font-size: 1.3em;
+}
+img {
+	border-style: none;
+}
+#wrapper {
+	width: 100%;
+}
+#masthead {
+	width: 974px;
+	height: 150px;
+	margin: 0 auto;
+	background-image: url(/~htruong3/images/myjourney/banner-png8.png);
+}
+#content {
+	font-size: 0.8em;
+	width: 974px;
+	margin: 20px auto 0 auto;
+	padding: 10px;
+	background-color: #e0e9ed;
+	-moz-border-radius:6px;-webkit-border-radius:6px;z-index:1000; 
+	border: 1px dashed #938A28 ;
+	
+}
+#footer {
+	font: 0.8em italic tahoma, arial, san-serif;
+	color: #938A28;
+	width: 974px;
+	margin: 20px auto 0px auto;
+	padding: 0 10px;
+	border-top: 1px dashed #938A28;
+	border-bottom: 1px dashed #938A28;
+}
+div#nav_main ul.nav_main{
+	list-style: none;;
+	float: left;
+}
+div#nav_main ul.nav_main li {
+	list-style: none;;
+	float: left;
+	width: 95px;
+	height: 45px;
+}
+
+div#nav_main a {
+	text-decoration: none;
+}
+div#nav_main ul.nav_main li,
+div#nav_main ul.nav_main li a:link,
+div#nav_main ul.nav_main li a:hover,
+div#nav_main ul.nav_main li a:active,
+div#nav_main ul.nav_main li a:visited {
+	width: 95px;
+	height: 45px;
+	display: block;
+}
+div#nav_main ul.nav_main li span {
+	visibility: hidden;
+}
+
+div#nav_main ul.nav_main li.hoa_ff {
+	position: relative;
+	top: 50px;
+	left: 170px;
+	background: url(/~htruong3/images/myjourney/button_family_friends.png) no-repeat;
+}
+
+div#nav_main ul.nav_main li.hoa_ff a:hover {
+	background: url(/~htruong3/images/myjourney/button_family_friends_hover.png) no-repeat;
+}
+
+div#nav_main ul.nav_main li.tango {
+	position: relative;
+	top: 50px;
+	left: 170px;
+	background: url(/~htruong3/images/myjourney/button_tango.png) no-repeat;
+}
+div#nav_main ul.nav_main li.tango a:hover {
+	background: url(/~htruong3/images/myjourney/button_tango_hover.png) no-repeat;
+}
+
+div#nav_main ul.nav_main li.tennis {
+	position: relative;
+	top: 70px;
+	left: 170px;
+	background: url(/~htruong3/images/myjourney/button_tennis.png) no-repeat;
+}
+div#nav_main ul.nav_main li.tennis a:hover {
+	background: url(/~htruong3/images/myjourney/button_tennis_hover.png) no-repeat;
+}
+div#nav_main ul.nav_main li.psy {
+	position: relative;
+	top: 45px;
+	left: 170px;
+	background: url(/~htruong3/images/myjourney/button_psy.png) no-repeat;
+}
+div#nav_main ul.nav_main li.psy a:hover {
+	background: url(/~htruong3/images/myjourney/button_psy_hover.png) no-repeat;
+}
+div#nav_main ul.nav_main li.phy {
+	position: relative;
+	top: 80px;
+	left: 170px;
+	background: url(/~htruong3/images/myjourney/button_phy.png) no-repeat;
+}
+div#nav_main ul.nav_main li.phy a:hover {
+	background: url(/~htruong3/images/myjourney/button_phy_hover.png) no-repeat;
+}
+
+div#nav_main ul.nav_main li.computer {
+	position: relative;
+	top: 60px;
+	left: 170px;
+	background: url(/~htruong3/images/myjourney/button_computer.png) no-repeat;
+}
+div#nav_main ul.nav_main li.computer a:hover {
+	background: url(/~htruong3/images/myjourney/button_computer_hover.png) no-repeat;
+}
+div#nav_main ul.nav_main li.language {
+	position: relative;
+	top: 40px;
+	left: 170px;
+	background: url(/~htruong3/images/myjourney/button_language.png) no-repeat;
+}
+div#nav_main ul.nav_main li.language a:hover {
+	background: url(/~htruong3/images/myjourney/button_language_hover.png) no-repeat;
+}
+
+div#nav_main ul.nav_main li.travel {
+	position: relative;
+	top: 50px;
+	left: 170px;
+	background: url(/~htruong3/images/myjourney/button_travel.png) no-repeat;
+}
+div#nav_main ul.nav_main li.travel a:hover {
+	background: url(/~htruong3/images/myjourney/button_travel_hover.png) no-repeat;
+}
+
+div#nav_main ul.nav_sub1 {
+	display: none;	
+}
+div#nav_sub1 ul.nav_main {
+	display: none;		
+}
+
+
+
+
